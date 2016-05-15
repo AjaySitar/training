@@ -14,6 +14,6 @@ public class MySafeMethodServlet extends SlingSafeMethodsServlet {
 	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)throws ServletException, IOException {
 		response.setHeader("Content-Type", "application/json");
-		response.getWriter().print("{\"coming\" : \"soon\"}");
+		response.getWriter().print("{\"key\" : \"value\"}");
 	}
 }
